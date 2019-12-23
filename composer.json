@@ -1,0 +1,22 @@
+{
+    "name": "yii2cmf/yii2-admin-module",
+    "description": "Yii2 admin module",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","admin","module"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shandyrov",
+            "email": "shandyrov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yii2cmf/yii2-adminlte-asset": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2cmf\\modules\\admin\\": "src"
+        }
+    }
+}
