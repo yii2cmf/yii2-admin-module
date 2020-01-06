@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yii2cmf/yii2-admin-module "*"
+php composer.phar require yii2cmf/yii2-admin-module "*"
 ```
 
 or add
