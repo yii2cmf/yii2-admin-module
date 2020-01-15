@@ -24,3 +24,13 @@ to the require section of your `composer.json` file.
 
 Usage
 -----
+
+You need to add the following code to your application configuration:
+
+```php
+'modules' => [
+    'admin' => [
+        'class' => 'yii2cmf\modules\admin\Module',
+    ],
+]
+```
